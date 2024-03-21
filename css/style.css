@@ -3,13 +3,40 @@
     padding: 0px;
 }
 
+header{
+    height: 100px;
+}
+
 body{
     background-color: #05072F;
     display: flex;
     flex-direction: column;
-    width: 1500px;
-    height: 300px;
+    width: 100vw;
+    height: 100vh;
 }
+
+main{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.part1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    gap: 30px;
+
+}
+
+.part2{
+    width: 50%;
+    background-image: url('../imgs/Wings-BTS.jpg');
+    background-size: cover;
+}
+
 
 nav{
     color: white;
@@ -23,11 +50,6 @@ nav{
     padding: 10px;
 }
 
-img{
-    float: right;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    margin-top: -450px;
-}
 
 .FECAFMUSIC{
     font-size: 20px;
@@ -46,15 +68,11 @@ img{
   margin-left: 20px;
 }
 
-.titulo{
-    max-width: 800px;
-}
-
 h1{
     font-family: "Montserrat", sans-serif;
     color: #fff;
-    font-size: 90px;
-    width: 300px;
+    font-size: 120px;
+    width: 600px;
     margin-top: 100px;
 }
 
@@ -68,19 +86,37 @@ span.change-color{
 
 .texto{
     align-items: left;
-    margin-left: 50px;
-    max-width: 500px;
+    max-width: 800px;
     word-wrap: break-word;
 }
 
 label[for="text-area"]{
     color: white;
     font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+}
+
+.download{
+    background-color: #CF092D;
+    padding: 20px 60px;
+    font-family: "Montserrat", sans-serif;
     font-size: 25px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.start {
+    background-color: #fff;
+    padding: 20px 60px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 10px;
 }
 
 footer{
     align-items: center;
+    height: 100px;
 }
 
 .footer-text{
