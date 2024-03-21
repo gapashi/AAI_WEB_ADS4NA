@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #05072F;
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+    height: 300px;
+}
+
+nav{
+    color: white;
+    background-color: #05072F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin: 10px;
+    padding: 10px;
+}
+
+img{
+    float: right;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-top: -450px;
+}
+
+.FECAFMUSIC{
+    font-size: 20px;
+}
+
+.nav-group-center,
+.nav-group-right {
+  font-size: 20px;
+}
+
+.nav-group * {
+  margin: 0 10px;
+}
+
+.nav-group:not(:first-child) {
+  margin-left: 20px;
+}
+
+.titulo{
+    max-width: 800px;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 90px;
+    width: 300px;
+    margin-top: 100px;
+}
+
+.fecaf-color{
+    color: #CF092D;
+}
+
+span.change-color{
+    color: #CF092D;
+}
+
+.texto{
+    align-items: left;
+    margin-left: 50px;
+    max-width: 500px;
+    word-wrap: break-word;
+}
+
+label[for="text-area"]{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+}
+
+footer{
+    align-items: center;
+}
+
+.footer-text{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
